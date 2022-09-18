@@ -7,4 +7,4 @@ The code check the performance of the model and is an attempt to check the influ
 # Experiments
 The expermiment performed is based on the confusion matrix as follows,
 
- [Without Hidden layer](<img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf1.png">)  [With Hidden layer](<img scr="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf2.png">)
+ ! [Without Hidden layer](<img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf1.png">)  ! [With Hidden layer](<img scr="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf2.png">)
