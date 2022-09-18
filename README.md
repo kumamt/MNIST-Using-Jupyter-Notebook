@@ -16,7 +16,7 @@ model.fit(X_train, y_train, epochs=5)
 ```
 - Other with one additional layer i.e. Hidden Layer
 ```
-# Adds one more layer to the model i.e. a hidden layer for better performance
+# Adds one more layer to the model i.e. a hidden layer
 model_hidden = keras.Sequential([keras.layers.Flatten(input_shape=(28, 28)),
                         keras.layers.Dense(50, activation='sigmoid'),
                         keras.layers.Dense(10, activation='sigmoid')
