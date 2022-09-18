@@ -13,7 +13,7 @@ The expermiment performed is based on the confusion matrix as follows,
      <td>without Hidden layer</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf1.png" width=480 height=380></td>
-    <td><img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf2.png" width=480 height=380></td>
+    <td><img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf1.png" width=380 height=280></td>
+    <td><img src="https://github.com/amitk0693/MNIST-Using-Jupyter-Notebook/blob/55f81e1b546569a37d71110c34cd5f5ed022c9c8/cnf2.png" width=380 height=280></td>
   </tr>
  </table>
