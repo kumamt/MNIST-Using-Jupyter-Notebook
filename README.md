@@ -1,7 +1,7 @@
 # MNIST-Using-Jupyter-Notebook
 Classification of MNIST dataset using Jupyter Notebook. There are two two types of neural network used,
 - A model with One with Input layer and Ouptput Layer and,
-'''  
+´´´  
 model = keras.Sequential([keras.layers.Flatten(input_shape=(28, 28)),
                         keras.layers.Dense(10, activation='sigmoid')
                         ])
@@ -10,7 +10,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy']
              )
 model.fit(X_train, y_train, epochs=5)
-'''
+´´´
 - Other with one additional layer i.e. Hidden Layer
 The code check the performance of the model and is an attempt to check the influence of hidden layer on datasets.
 
