@@ -15,6 +15,18 @@ model.compile(optimizer='adam',
 model.fit(X_train, y_train, epochs=5)
 ```
 - Other with one additional layer i.e. Hidden Layer
+```
+# Adds one more layer to the model i.e. a hidden layer for better performance
+model_hidden = keras.Sequential([keras.layers.Flatten(input_shape=(28, 28)),
+                        keras.layers.Dense(50, activation='sigmoid'),
+                        keras.layers.Dense(10, activation='sigmoid')
+                        ])
+model_hidden.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy']
+             )
+model_hidden.fit(X_train, y_train, epochs=5)
+```
 The code check the performance of the model and is an attempt to check the influence of hidden layer on datasets.
 
 # Experiments
